@@ -1,0 +1,17 @@
+ #while true
+
+count=1
+while True:
+    if count<=3:
+        password=input("enter your password")
+        if password=="nakki123":
+            print("successfully logged in")
+            break
+        else:
+            print("invalid password")
+            count+=1
+    else:
+         print("oooopss limit reached")
+         break
+print("end")
+        
